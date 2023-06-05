@@ -1,5 +1,13 @@
 source "https://rubygems.org"
 
+# Parse and emit YAML
+# https://github.com/ruby/psych
+gem "psych", "< 4"
+
+# Processes HTTP requests using a C-optimized Ragel extension
+# https://github.com/puma/puma
+gem "puma"
+
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
 gem "sinatra", "~> 2.1"
